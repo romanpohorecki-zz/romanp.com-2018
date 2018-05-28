@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-social-linkedin-dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav-/-Home" transform="translate(-917.000000, -47.000000)">
+            <g id="icon-social-linkedin-dark" transform="translate(918.000000, 48.000000)">
+                <g id="Group" transform="translate(6.000000, 4.000000)" fill="#000000">
+                    <polygon id="Fill-3-Copy" points="2 3.15789474 0 3.15789474 0 10 2 10"></polygon>
+                    <path d="M2,0.999575011 C1.98849372,0.432355858 1.61375523,0 1.00575314,0 C0.39748954,0 0,0.432355858 0,0.999575011 C0,1.55517779 0.385721757,2 0.982479079,2 L0.993985356,2 C1.61375523,2 2,1.55517779 2,0.999575011" id="Fill-5-Copy"></path>
+                    <path d="M9,6.16694189 C9,4.11378671 8.03044903,3.15789474 6.73713625,3.15789474 C5.69358258,3.15789474 5.22644055,3.80682791 4.96569667,4.26203015 L4.96569667,3.15789474 L3,3.15789474 C3.02601657,3.78490228 3,10 3,10 L4.96569667,10 L4.96569667,6.26675259 C4.96569667,6.06680394 4.97841588,5.86750979 5.03044903,5.72450233 C5.17238389,5.32525953 5.49585662,4.91227231 6.03873579,4.91227231 C6.75014454,4.91227231 7.03459241,5.52520818 7.03459241,6.42350448 L7.03459241,9.99967275 L8.99971093,9.99967275 L9,6.16694189 Z" id="Fill-6-Copy"></path>
+                </g>
+                <circle id="Oval-2" stroke="#000000" stroke-width="1.5" cx="10" cy="10" r="10"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

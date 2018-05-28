@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-social-email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav-/-Home" transform="translate(-853.000000, -16.000000)">
+            <g id="icon-social-email" transform="translate(854.000000, 17.000000)">
+                <path d="M5.66,6 L14.34,6 C14.7045079,6 15,6.29549207 15,6.66 L15,13.34 C15,13.7045079 14.7045079,14 14.34,14 L5.66,14 C5.29549207,14 5,13.7045079 5,13.34 L5,6.66 C5,6.29549207 5.29549207,6 5.66,6 Z M6.33333333,7.33333333 L10,11.3333333 L13.6666667,7.33333333 L6.33333333,7.33333333 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <circle id="Oval-2-Copy" stroke="#FFFFFF" stroke-width="1.5" cx="10" cy="10" r="10"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
