@@ -418,11 +418,6 @@
         .icon-medium {background-image: url(../img/icon-social-medium-dark.svg);}
         .icon-linkedin {background-image: url(../img/icon-social-linkedin-dark.svg);}
 
-
-        @media only screen and (max-width: 760px) {    
-        
-        }
-
 /* Video */
 
     #video-viewport {
@@ -467,6 +462,7 @@
         margin: 6vw auto 0 auto;
         align-content: space-around;
         max-width: 600px;
+		flex-wrap: wrap;
     }
 
     .quote-head {
@@ -476,21 +472,42 @@
         justify-content: center;  
     }
 
+    .quote-head span {
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	width: 75px;
+    	height: 75px;
+    	border-radius: 50%;
+    	display: block;
+    }
+
     .quote-head img {
         width: auto;
         padding-top: 0;
-        
     }
 
-    .quote span{
+    .quote-text{
         width: 80%;
     }
 
-    .quote i{
+    .quote-text i{
         opacity: .3;
         display: inline-block;
         width: 100%;
+        font-style: normal;
+        padding: 10px 0 0 0;
     }
+
+    @media only screen and (max-width: 760px) {
+           .quote-head {
+				width: 100%;
+    			margin-bottom: 3vw;
+			}
+
+			.quote-text {
+				width: 100%;
+			} 
+	}
 
 /* Paragraphs */
 
