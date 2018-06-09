@@ -1,0 +1,254 @@
+ /*
+
+ This template is used for 
+ Atomic CSS is used for synthesizing styles within HTML elements. 
+ Each rule has a narrow specificity. 
+ 
++ Resets
++ Positions
++ Layouts
++ Dimensions
++ Borders
++ Paddings and Margins
++ Colors
++ Fonts
++ Text Sizes
++ Transitions
+
+
+Example:
+<div class='resest position layout dimension borders padding color font text transition'>
+	Hello World
+</div>
+
+*/
+
+
+
+
+/* Resets */
+body, h1, h2, h3, h4, h5, h6, p,ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+.list-style-none {list-style: none;}
+
+
+
+/* Positions */
+.fixed {position: fixed;}
+.abosulte {position: absolute;}
+.relative {position: relative;}
+
+.top-0 {top: 0;}
+.right-0 {right: 0;}
+.bottom-0 {bottom: 0;}
+.left-0 {left: 0;}
+
+.text-center {text-align: center;}
+.centering-horizontal {margin: 0 auto 0 auto;}
+.centering-vertical {}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.cover-background {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+/* Dimensions */
+.width-1000 {width: 1000%;}
+.width-100 {width: 100%;}
+.width-66 {width: 66.6666%;}
+.width-50 {width: 50%;}
+.width-33 {width: 33.3333%;}
+.width-25 {width: 25%}
+
+.height-100 {height: 100%;}
+.line-height-100 {line-height: 100%;}
+.line-height-150 {line-height: 150%;}
+
+
+
+/* Layouts*/
+.flex {display: flex;}
+.block {display: block;}
+.inline-block {display: inline-block;}
+.inline {display: inline;}
+.overflow-hidden {overflow: hidden;}
+.overflow-y-hidden {overflow-y: hidden;}
+.overflow-x-hidden {overflow-x: hidden;}
+
+
+.float-left {float: left;}
+.float-right {float: right;}
+.clear-both {clear: both;}
+
+/* Borders */
+.border-top {border-top: 1px solid #eee;}
+.border-right {border-top: 1px solid #eee;}
+.border-bottom {border-top: 1px solid #eee;}
+.border-all {border-top: 1px solid #eee;}
+.border-radius {border-radius: 3px;}
+.border-0 {border: 0;}
+
+
+/* Paddings and Margins */
+.padding-0 {padding: 0;}
+.padding-5 {padding: 5px;}
+.padding-10 {padding: 10px;}
+.padding-15 {padding: 15px;}
+.padding-20 {padding: 20px;}
+.padding-30 {padding: 30px;}
+.padding-40 {padding: 40px;}
+.padding-60 {padding: 60px;}
+.padding-80 {padding: 80px;}
+.padding-120 {padding: 120px;}
+
+.padding-top-0 {padding-top: 0;}
+.padding-top-5 {padding-top: 5px;}
+.padding-top-10 {padding-top: 10px;}
+.padding-top-15 {padding-top: 15px;}
+.padding-top-20 {padding-top: 20px;}
+.padding-top-30 {padding-top: 30px;}
+.padding-top-40 {padding-top: 40px;}
+.padding-top-60 {padding-top: 60px;}
+.padding-top-80 {padding-top: 80px;}
+
+.padding-right-0 {padding-right: 0;}
+.padding-right-5 {padding-right: 5px;}
+.padding-right-10 {padding-right: 10px;}
+.padding-right-15 {padding-right: 15px;}
+.padding-right-20 {padding-right: 20px;}
+.padding-right-30 {padding-right: 30px;}
+.padding-right-40 {padding-right: 40px;}
+.padding-right-60 {padding-right: 60px;}
+.padding-right-80 {padding-right: 80px;}
+
+.padding-bottom-0 {padding-bottom: 0;}
+.padding-bottom-5 {padding-bottom: 5px;}
+.padding-bottom-10 {padding-bottom: 10px;}
+.padding-bottom-15 {padding-bottom: 15px;}
+.padding-bottom-20 {padding-bottom: 20px;}
+.padding-bottom-30 {padding-bottom: 30px;}
+.padding-bottom-40 {padding-bottom: 40px;}
+.padding-bottom-60 {padding-bottom: 60px;}
+.padding-bottom-80 {padding-bottom: 80px;}
+
+.padding-left-0 {padding-left: 0;}
+.padding-left-5 {padding-left: 5px;}
+.padding-left-10 {padding-left: 10px;}
+.padding-left-15 {padding-left: 15px;}
+.padding-left-20 {padding-left: 20px;}
+.padding-left-30 {padding-left: 30px;}
+.padding-left-40 {padding-left: 40px;}
+.padding-left-60 {padding-left: 60px;}
+.padding-left-80 {padding-left: 80px;}
+
+
+@media (max-width: 768px) {
+.mobile-padding-10{
+	padding: 10px;
+	} 
+}
+
+.margin-0 {margin: 0;}
+.margin-5 {margin: 5px;}
+.margin-10 {margin: 10px;}
+.margin-15 {margin: 15px;}
+.margin-20 {margin: 20px;}
+.margin-30 {margin: 30px;}
+.margin-40 {margin: 40px;}
+.margin-60 {margin: 60px;}
+.margin-80 {margin: 80px;}
+
+.margin-top-0 {margin-top: 0;}
+.margin-top-5 {margin-top: 5px;}
+.margin-top-10 {margin-top: 10px;}
+.margin-top-15 {margin-top: 15px;}
+.margin-top-20 {margin-top: 20px;}
+.margin-top-30 {margin-top: 30px;}
+.margin-top-40 {margin-top: 40px;}
+.margin-top-60 {margin-top: 60px;}
+.margin-top-80 {margin-top: 80px;}
+
+.margin-right-0 {margin-right: 0;}
+.margin-right-5 {margin-right: 5px;}
+.margin-right-10 {margin-right: 10px;}
+.margin-right-15 {margin-right: 15px;}
+.margin-right-20 {margin-right: 20px;}
+.margin-right-30 {margin-right: 30px;}
+.margin-right-40 {margin-right: 40px;}
+.margin-right-60 {margin-right: 60px;}
+.margin-right-80 {margin-right: 80px;}
+
+.margin-bottom-0 {margin-bottom: 0;}
+.margin-bottom-5 {margin-bottom: 5px;}
+.margin-bottom-10 {margin-bottom: 10px;}
+.margin-bottom-15 {margin-bottom: 15px;}
+.margin-bottom-20 {margin-bottom: 20px;}
+.margin-bottom-30 {margin-bottom: 30px;}
+.margin-bottom-40 {margin-bottom: 40px;}
+.margin-bottom-60 {margin-bottom: 60px;}
+.margin-bottom-80 {margin-bottom: 80px;}
+
+.margin-left-0 {margin-left: 0;}
+.margin-left-5 {margin-left: 5px;}
+.margin-left-10 {margin-left: 10px;}
+.margin-left-15 {margin-left: 15px;}
+.margin-left-20 {margin-left: 20px;}
+.margin-left-30 {margin-left: 30px;}
+.margin-left-40 {margin-left: 40px;}
+.margin-left-60 {margin-left: 60px;}
+.margin-left-80 {margin-left: 80px;}
+
+
+/*Colors*/
+.background-color-1{}
+.color-1{}
+.shadow-1{text-shadow: 2px 2px 8px rgba(0,0,0,.3);}
+
+
+
+/* Fonts */
+.font-primary {}
+.font-secondary {}
+.font-tertiary {}
+
+
+
+/* Text Sizes */
+.text-x-small {font-size: .7em;}
+.text-small {font-size: .85em;}
+.text-base {font-size: 1em;}
+.text-medium {font-size: 1.5em;}
+.text-large {font-size: 2em;}
+.text-x-large {font-size: 3em;}
+.text-caps {text-transform: uppercase;}
+
+
+
+/* Transitions*/
+
+.hover-cursor:hover{
+	cursor: pointer;
+}
+
+.transition-1{
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-ms-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+}
